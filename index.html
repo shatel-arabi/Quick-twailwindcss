@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QUICK</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <header class="px-12 py-5 sm:block md:flex justify-between shadow-2xl items-center">
-        <div class="">
-            <img class="w-32" src="./images/dark.svg" alt="">
-
-        </div>
-        <nav class="">
-            <ul class="flex" >
-                <li class="ml-3 "><a class="" href="http://"> Home</a></li> 
-                <li class="ml-3 "><a class="" href="http://">About</a></li> 
-                <li class="ml-3 "><a class="" href="http://">Contact</a></li> 
-                <li class="ml-3 "><a class="" href="http://">Privacy</a></li>
-                <li class="ml-3 "><a class="" href="http://">Tutorial</a></li>  
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header
+      class="sm:px-3 md:px-5 lg:px-12 sm:py-3 md:py-5 sm:block md:flex justify-between shadow-2xl items-center"
+    >
+      <div class="">
+        <img
+          class="block mx-auto sm:w-16 md:w-20 lg:w-32"
+          src="./images/dark.svg"
+          alt=""
+        />
+      </div>
+      <nav class="">
+        <ul class="flex justify-center">
+          <li class="ml-3">
+            <a class="font-semibold active:bg-violet-700" href=""> Home</a>
+          </li>
+          <li class="ml-3">
+            <a class="font-semibold active:bg-violet-700" href="">About</a>
+          </li>
+          <li class="ml-3">
+            <a class="font-semibold active:bg-violet-700" href="">Contact</a>
+          </li>
+          <li class="ml-3">
+            <a class="font-semibold active:bg-violet-700" href="">Privacy</a>
+          </li>
+          <li class="ml-3">
+            <a class="font-semibold active:bg-violet-700" href="">Tutorial</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <!-- bannar section -->
+    <section class="p-[10px] pt-10 md:p-12 lg:p-24 text-center">
+      <h1
+        class="sm:text-2xl md:text-4xl lg:text-6xl font-bold leading-tight text-gray-600"
+      >
+        It's Time to Amplify Your<br />
+        <span class="text-[#0c66fe]">Online Business</span>
+      </h1>
+      <p class="my-5">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+      <img
+        class="w-1/1 md:w-2/3 mx-auto"
+        src="./images/illustration-1.svg"
+        alt=""
+      />
+    </section>
+  </body>
 </html>
